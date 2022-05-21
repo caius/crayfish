@@ -33,6 +33,8 @@ gem "jbuilder"
 # Reduces boot times through caching; required in config/boot.rb
 # gem "bootsnap", require: false
 
+gem "graphql"
+
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
