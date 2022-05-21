@@ -3,6 +3,5 @@ Rails.application.routes.draw do
 
   post "/graphql", to: "graphql#execute"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root "stories#index"
 end
